@@ -2,10 +2,10 @@ import styles from './About.module.css'
 
 const About = () => {
   return (
-    <div class={styles.about}>
+    <div className={styles.about}>
 
       <h1>what i do</h1>
-      <p>I develop websites in React.</p>
+      <p>i develop websites, getting pretty good at it. i make music (hiphop). </p>
     </div>
   )
 }

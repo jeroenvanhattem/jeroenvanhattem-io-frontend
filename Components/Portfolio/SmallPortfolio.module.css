@@ -1,4 +1,4 @@
-.portfolio {
+.smallPortfolio {
   margin-top: 150px;
   margin-left: auto;
   margin-right: auto;
@@ -6,7 +6,7 @@
 
 }
 
-.portfolio h1 {
+.smallPortfolio h1 {
   text-align: center;
   color: #fff;
   font-weight: 100;

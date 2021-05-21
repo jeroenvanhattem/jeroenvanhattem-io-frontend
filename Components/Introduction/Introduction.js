@@ -9,17 +9,15 @@ const Introduction = () => {
     <div className={styles.introduction}>
 
       <div className={styles.rowUpper}>
+        <div className={styles.empty}>
+        </div>
         <div className={styles.picture}>
           <Picture />
         </div>
         <div className={styles.bigText}>
           <BigText />
         </div>
-      </div>
-
-      <div className={styles.rowLower}>
-        <div className={styles.about}>
-          <About />
+        <div className={styles.empty}>
         </div>
       </div>
 

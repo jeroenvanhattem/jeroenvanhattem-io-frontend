@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react'
 import Project from './Project'
-import styles from './Portfolio.module.css'
+import styles from './SmallPortfolio.module.css'
 
-const Portfolio = () => {
+const SmallPortfolio = () => {
   const [projects, setProjects] = useState(null)
   const BACKEND_URL = process.env.BACKEND_URL
 
@@ -15,7 +15,7 @@ const Portfolio = () => {
   }, [])
 
   return (
-    <div className={styles.portfolio}>
+    <div className={styles.smallPortfolio}>
       <h1>what i made</h1>
       <div className={styles.projects}>
         {projects && projects.map((project) => {
@@ -37,4 +37,4 @@ const Portfolio = () => {
   )
 }
 
-export default Portfolio
+export default SmallPortfolio

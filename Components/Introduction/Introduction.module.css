@@ -28,7 +28,12 @@
   flex: 3;
 }
 
-.about {
+.empty {
+  margin-left: 50px;
   flex: 1;
+}
+
+.about {
+  flex: 3;
   margin-top: 50px;
 }
