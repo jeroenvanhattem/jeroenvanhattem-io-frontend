@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+.login {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  background: #141414;
+  background-size: 100% 100%; 
+  font-family: 'Poppins'
+}
+
+.login h1 {
+  margin: 0;
+}
+
+.login .header {
+  margin: 20px;
+}
+
+.form {
+  margin-top: 10%;
+  margin-left: 35%;
+  margin-right: 35%;
+  padding: 0;
+  width: 30%;
+  min-width: 400px;
+  height: 450px;
+  background-color: #ffffff;
+  position: absolute;
+  border-radius: 25px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.form .input {
+  margin: auto;
+  margin-bottom: 15px;
+  width: 12rem;
+}
+
+.form label {
+  display: block;
+  margin: 5px;
+}
+
+.form input {
+  display: block;
+  border: none;
+  background-color: #F9F9FC;
+  border-radius: 10px;
+  width: 12rem;
+  height: 2rem;
+}
+
+.form button {
+  background-color: #F9F9FC;
+  border: #191919 1px solid;
+  border-radius: 5px;
+  width: 5rem;
+  height: 2rem;
+  cursor: pointer;
+}
+
+.input {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.links {
+  margin-top: 20px;
+}
+
+.links a {
+  display: inline-block;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.links a:link, .links a:visited {
+  color: #191919;
+}
+
+.links a:hover, .links a:focus, .links a:active {
+  color: #FAB6AF;
+}
