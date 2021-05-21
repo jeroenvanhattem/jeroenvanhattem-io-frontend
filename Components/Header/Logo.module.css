@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
+.logo {
+  display: inline-block
+}
+
+.logo h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 28px;
+  background: -webkit-linear-gradient(0deg, #ffd1db, #f3d7db);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

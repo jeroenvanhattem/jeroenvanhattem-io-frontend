@@ -1,0 +1,9 @@
+.socials {
+  display: inline-block;
+  color: #b6b6b6;
+}
+
+.socials span {
+  padding: 20px;
+  font-size: 24px;
+}

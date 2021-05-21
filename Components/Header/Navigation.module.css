@@ -1,0 +1,31 @@
+.navigation {
+  height: 100px;
+  width: 100%;
+  display: inline-block;
+}
+
+.navigation ul {
+  height: 100px;
+  display: block;
+  display: inline-block;
+}
+
+.navigation li {
+  height: 100px;
+  width: 15rem;
+  display: inline-block;
+  line-height: 100px;
+  vertical-align: bottom;
+  text-align: center;
+}
+
+.navigation a, .navigation a:link, .navigation a:visited {
+  color: #b6b6b6;
+}
+
+.socials {
+  float: right;
+  line-height: 100px;
+  vertical-align: bottom;
+  margin-right: 50px;
+}
