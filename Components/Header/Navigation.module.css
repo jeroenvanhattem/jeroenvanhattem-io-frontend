@@ -1,7 +1,7 @@
 .navigation {
   height: 100px;
   width: 100%;
-  display: inline-block;
+  display: block;
 }
 
 .navigation ul {

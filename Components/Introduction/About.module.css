@@ -1,0 +1,9 @@
+.about {
+  display: block;
+  color: #b6b6b6;
+}
+
+.about h1 {
+  color: #ccc;
+  font-weight: 300;
+}

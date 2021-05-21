@@ -1,0 +1,7 @@
+.picture {
+  display: block;
+  width: 400px;
+  height: 600px;
+  background: url('../../Assets//Pictures/Profile.jpg') no-repeat;
+  background-size: cover;
+}
