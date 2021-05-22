@@ -1,16 +1,10 @@
 import Head from 'next/head'
-import { useEffect, useState } from 'react'
 import Header from '../Components/Header/Header'
 import ProjectDetail from '../Components/Projects/ProjectDetail'
+
 import styles from '../styles/ProjectDetails.module.css'
 
 const ProjectDetails = (props) => {
-  const [project, setProject] = useState(null)
-  const BACKEND_URL = process.env.BACKEND_URL
-  useEffect(async () => {
-    console.log(props.project)
-    setProject(props.project)
-  }, [])
 
   return (
     <>
@@ -63,9 +57,6 @@ export const getStaticProps = async (context) => {
   const projectId = context.params.projectId
   const response = await fetch(BACKEND_URL + '/projects/' + projectId)
   const project = await response.json()
-
-  console.log('____________________________________________')
-  console.log(project)
 
   return {
     props: {

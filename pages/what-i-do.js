@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Header from '../Components/Header/Header'
 import WhatIDo from '../Components/WhatIDo/WhatIDo'
-import Footer from '../Components/Footer/Footer'
 
 import styles from '../styles/Home.module.css'
 
@@ -22,7 +21,6 @@ export default function Home() {
       <div className={styles.container}>
         <Header />
         <WhatIDo />
-        <Footer />
       </div>
     </>
   )

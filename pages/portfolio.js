@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Header from '../Components/Header/Header'
 import Portfolio from '../Components/Portfolio/Portfolio'
-import Footer from '../Components/Footer/Footer'
 
 import styles from '../styles/Home.module.css'
 
@@ -18,7 +17,6 @@ export default function Page (props) {
     <div className={styles.container}>
       <Header />
       <Portfolio projects={props.projects} />
-      <Footer />
     </div>
     </>
   )

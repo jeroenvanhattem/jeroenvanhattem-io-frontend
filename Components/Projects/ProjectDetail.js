@@ -4,7 +4,7 @@ import styles from './ProjectDetail.module.css'
 
 const ProjectDetail = (props) => {
   return (
-    <div className={styles.ProjectDetail}>
+    <div className={styles.projectDetail}>
       <ProjectPicture image={props.image} />
 
       <div className={styles.techniques}>
