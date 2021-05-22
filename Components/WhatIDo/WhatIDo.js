@@ -9,6 +9,7 @@ export default function Home() {
       <div className={styles.introduction}>
         <p>hey, i'm jeroen. i'm 22 years old. living near utrecht.</p>
         <p>i make music (hip-hop). i develop websites using react, getting better at it. i workout a lot, play football regularly.</p>
+        <p>i'd love to move to new york</p>
       </div>
 
       <div className={styles.skills}>

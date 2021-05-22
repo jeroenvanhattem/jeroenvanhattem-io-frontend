@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import { useEffect, useState } from 'react'
 import Header from '../Components/Header/Header'
 import ProjectDetail from '../Components/Projects/ProjectDetail'
@@ -12,6 +13,14 @@ const ProjectDetails = (props) => {
   }, [])
 
   return (
+    <>
+      <Head>
+        <title>{`jeroen | ${props.project.name}`}</title>
+        <meta
+          name='description'
+          content={`jeroenvanhattem.io ${props.project.name} ${props.project.description}`}
+        />
+      </Head>
     <div className={styles.container}>
       <Header />
       <div className={styles.projectDetails}>
@@ -30,6 +39,7 @@ const ProjectDetails = (props) => {
         </div>
       </div>
     </div>
+    </>
   )
 }
 
