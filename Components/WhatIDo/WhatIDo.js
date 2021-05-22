@@ -2,6 +2,8 @@ import Bubble from '../UI/Bubble'
 import styles from './WhatIDo.module.css'
 
 export default function Home() {
+  const skills = ['React', 'Node.js', 'Next.js', 'CSS', 'Express', 'JavaScript']
+
   return (
     <div className={styles.whatIDo}>
       <h1>what i do</h1>
@@ -16,13 +18,10 @@ export default function Home() {
       <div className={styles.skills}>
         <h4>skills</h4>
         <p>i'm a beginning react developer. i also know some node.js</p>
-        <Bubble name='React' />
-        <Bubble name='Node.js' />
-        <Bubble name='Next.js' />
-        <Bubble name='CSS' />
-        <Bubble name='Express' />
-        <Bubble name='JavaScript' />
-
+        {skills.map((skill) => {
+          return <Bubble name={skill} />
+        })}
+        
       </div>
     </div>
   )
