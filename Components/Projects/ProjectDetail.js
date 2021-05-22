@@ -1,5 +1,5 @@
 import ProjectPicture from './ProjectPicture'
-import Technique from './Technique'
+import Bubble from '../UI/Bubble'
 import styles from './ProjectDetail.module.css'
 
 const ProjectDetail = (props) => {
@@ -16,7 +16,7 @@ const ProjectDetail = (props) => {
         <h3>Techniques</h3>
         {props.techniques && props.techniques.map((technique) => {
           return (
-            <Technique name={technique} />
+            <Bubble name={technique} />
           )
         })}
       </div>
