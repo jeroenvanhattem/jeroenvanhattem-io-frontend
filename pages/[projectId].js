@@ -9,7 +9,7 @@ const ProjectDetails = (props) => {
   return (
     <>
       <Head>
-        <title>{`jeroen | ${props.project.name}`}</title>
+        <title>{`jeroen | ${props.project.title}`}</title>
         <meta
           name='description'
           content={`jeroenvanhattem.io ${props.project.name} ${props.project.description}`}
