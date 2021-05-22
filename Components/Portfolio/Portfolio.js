@@ -20,8 +20,11 @@ const Portfolio = () => {
       <div className={styles.projects}>
         {projects && projects.map((project) => {
           return (
-            <div className={styles.project}>
+            <div
+              key={project._id}
+              className={styles.project}>
               <Project
+                key={project._id}
                 className={styles.project}
                 id={project._id}
                 title={project.title}
@@ -35,6 +38,21 @@ const Portfolio = () => {
       </div>
     </div>
   )
+}
+
+export const getStaticProps = async () => {
+  // Fetch data from an API
+  const BACKEND_URL = process.env.BACKEND_URL
+
+  const response = await fetch(BACKEND_URL + '/projects/')
+  const projects = await response.json()
+
+  return {
+    props: {
+      projects: projects
+    },
+    revalidate: 1
+  }
 }
 
 export default Portfolio
