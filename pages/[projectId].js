@@ -6,8 +6,8 @@ import styles from '../styles/ProjectDetails.module.css'
 const ProjectDetails = (props) => {
   const [project, setProject] = useState(null)
   const BACKEND_URL = process.env.BACKEND_URL
-
   useEffect(async () => {
+    console.log(props.project)
     setProject(props.project)
   }, [])
 
@@ -15,12 +15,13 @@ const ProjectDetails = (props) => {
     <div className={styles.container}>
       <Header />
       <div className={styles.projectDetails}>
-        <h1>what i made</h1>
+        <h1>{props.project.title}</h1>
 
         <div className={styles.project}>
           <ProjectDetail
             className={styles.project}
             id={props.project.id}
+            techniques={props.project.techniques}
             title={props.project.title}
             description={props.project.description}
             image={props.project.image}
