@@ -24,7 +24,6 @@ export default function Page (props) {
   )
 }
 
-
 export const getStaticProps = async () => {
   const BACKEND_URL = process.env.BACKEND_URL
 
