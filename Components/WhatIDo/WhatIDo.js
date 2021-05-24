@@ -2,7 +2,7 @@ import Bubble from '../UI/Bubble'
 import styles from './WhatIDo.module.css'
 
 export default function Home() {
-  const skills = ['React', 'Node.js', 'Next.js', 'CSS', 'Express', 'JavaScript', 'Redux', 'MongoDB']
+  const skills = ['React', 'Node.js', 'Next.js', 'CSS', 'Express', 'JavaScript', 'Redux', 'MongoDB', 'Arduino', 'C++', 'Scrum']
 
   return (
     <div className={styles.whatIDo}>
