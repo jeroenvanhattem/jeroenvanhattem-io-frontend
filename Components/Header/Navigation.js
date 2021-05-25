@@ -13,7 +13,7 @@ const Navigation = () => {
         </li>
         <li><Link href='/'>home</Link></li>
         <li><Link href='/what-i-do'>what i do</Link></li>
-        <li><Link href='/portfolio'>what i made</Link></li>
+        <li><Link href='/what-i-made'>what i made</Link></li>
       </ul>
       <ul className={styles.socials}>
         <Socials />
